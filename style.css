@@ -50,7 +50,7 @@ nav img{
     height: 5px;
     background: #fff;
     display: block;
-    margin: auto;
+
 
 }
 .nav-links ul li:hover::after{
@@ -105,14 +105,57 @@ nav img{
 
 /* about start */
 
-/* body{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/bg2.jpg);;
-} */
+        /* about */
+
+
+
+.hometous{
+    text-align: center;
+    margin: 100px auto auto auto;
+}
+.hometous h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.hometous p{
+    color: white;
+    padding: 10px;
+    letter-spacing: 3px;
+}
 .about-text{
+
     float: left;
+    width: 50%;
+    height: 83vh;
+    line-height: 25px;
+}
+.about-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 15px;
+    line-height: 50px;
+}
+.about-text .para1{
+    color: #0045E1;
+}
+.about-text .para2{
+    color: #6A727C;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.para3{
+    padding-top: 25px;
+    color: #6A727C;
+}
+.about-text span{
+    font-style: italic;
+    color: #0045E1;
 }
 .about-image{
     float: right;
+    width: 50%;
+
 }
 .bgimage{
     min-height: 60vh;
@@ -125,3 +168,37 @@ nav img{
 .container{
     padding: 100px;
 }
+.container .about-text .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #6A727C;
+    border: 1px solid #6A727C;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.container .about-text .hero-btn:hover{
+    border: 1px solid #0045E1;
+    background: #0045E1;
+    color: white;
+}
+        /* about */
+
+        .divclear{
+            clear: both;
+        }
+
+        /* team */
+
+        .teammem{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .teammem hr{
+            border: 8px solid red;
+            width: 180px;
+            border-bottom: none;
+            margin: auto;
+        }
