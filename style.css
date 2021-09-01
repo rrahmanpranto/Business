@@ -4,10 +4,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* home start */
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/bg1.jpg);
+    background-image: linear-gradient(rgba(63, 91, 113, 0.7),rgba(63,91,113,0.7)), url(img/bg1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -97,4 +98,30 @@ nav img{
 .hero-btn:hover{
     border: 1px solid #0045E1;
     background: #0045E1;
+}
+
+/* home end */
+
+
+/* about start */
+
+/* body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/bg2.jpg);;
+} */
+.about-text{
+    float: left;
+}
+.about-image{
+    float: right;
+}
+.bgimage{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(63, 91, 113, 0.7),rgba(63,91,113,0.7)), url(img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    padding: 100px;
 }
