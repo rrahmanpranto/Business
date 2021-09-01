@@ -126,7 +126,7 @@ nav img{
 .about-text{
 
     float: left;
-    width: 50%;
+    width: 45%;
     height: 83vh;
     line-height: 25px;
 }
@@ -157,6 +157,9 @@ nav img{
     width: 50%;
 
 }
+.about-image img{
+    width: 100%;
+}
 .bgimage{
     min-height: 60vh;
     width: 100%;
@@ -184,7 +187,7 @@ nav img{
     background: #0045E1;
     color: white;
 }
-        /* about */
+        /* about end*/
 
         .divclear{
             clear: both;
@@ -196,9 +199,142 @@ nav img{
             text-align: center;
             margin-top: 50px;
         }
-        .teammem hr{
-            border: 8px solid red;
-            width: 180px;
+        .teammem h1{
+            padding-bottom: 15px;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .superman{
+            border: 5px solid #0045E1;
+            width: 50px;
             border-bottom: none;
             margin: auto;
+        }
+        .teammem p{
+            padding-top: 20px;
+            padding-bottom: 50px;
+            color: #6A727C;
+        }
+        /* .firstmem, .secondmem, .thirdmem{ 
+            float: left;
+            border: 1px solid red;
+            width: 400px;
+            
+        }
+        */
+        .firstmem{
+            box-sizing:border-box;
+            float:left;
+            margin-top: 50px;
+            margin-left: 110px;
+            text-align: center;
+        }
+        .secondmem{
+            box-sizing:border-box;
+            float:left;
+            margin-top: 50px;
+            margin-left: 110px;
+            text-align: center;
+        }
+        .thirdmem{
+            box-sizing:border-box;
+            float:left;
+            margin-top: 50px;
+            margin-left: 110px;
+            text-align: center;
+        }
+        .firstmem, .secondmem, .thirdmem, img{
+            width: 300px;
+        }
+        .firstmem h3{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .secondmem h3{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .thirdmem h3{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .firstmem p{
+            color: #6A727C;
+        }
+        .secondmem p{
+            color: #6A727C;
+        }
+        .thirdmem p{
+            color: #6A727C;
+        }
+
+        /* member end */
+
+        /* footer start */
+
+        .footer{
+            margin-top: 200px;
+            background-color: #062A46;
+            height: auto;
+        }
+        .us{
+            width: 300px;
+            color: white;
+            padding-top: 100px;
+            margin-left: 50px;
+            border: 2px solid red;
+        }
+        .us h4{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        .us p{
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        .fb, .twitter, .insta, .globe{
+            width: 40px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 50%;
+            margin-bottom: 40px;
+        }
+        .batman{
+            width: 90px;
+            border: 2px solid white;
+            border-bottom: none;
+        }
+        .link{
+            width: 300px;
+            color: white;
+            padding-top: 100px;
+            margin-left: 50px;
+            border: 2px solid red;
+        }
+        .link h4{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        .link ul li{
+            padding: 10px;
+            list-style: none;
+        }
+        .link ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .wonder{
+            width: 50px;
+            border: 2px solid white;
+            border-bottom: none;
+        }
+        .link ul li::before{
+            content: "\29BF";
+            padding-right: 7px;
         }
