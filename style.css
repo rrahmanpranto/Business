@@ -280,61 +280,45 @@ nav img{
 
         .footer{
             margin-top: 200px;
+            width: 100%;
             background-color: #062A46;
-            height: auto;
+            
+        }
+        .new{
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
         .us{
-            width: 300px;
+            /* width: 300px; */
             color: white;
-            padding-top: 100px;
-            margin-left: 50px;
-            border: 2px solid red;
+            padding-top: 10%;
+            padding-left: 2%;
+            width: 20%;
+            /* padding-top: 100px; */
+            /* margin-left: 50px; */
+            /* border: 2px solid red; */
         }
         .us h4{
             font-size: 20px;
-            padding-bottom: 10px;
+            padding-bottom: 2%;
         }
         .us p{
-            padding-top: 40px;
-            padding-bottom: 30px;
+            padding-top: 10%;
+            padding-bottom: 10%;
         }
         .fb, .twitter, .insta, .globe{
             width: 40px;
             background-color: white;
-            padding: 10px;
+            padding: 2%;
             border-radius: 50%;
-            margin-bottom: 40px;
+            margin-bottom: 20%;
         }
         .batman{
-            width: 90px;
+            width: 20%;
             border: 2px solid white;
             border-bottom: none;
-        }
-        .link{
-            width: 300px;
-            color: white;
-            padding-top: 100px;
-            margin-left: 50px;
-            border: 2px solid red;
-        }
-        .link h4{
-            font-size: 20px;
-            padding-bottom: 10px;
-        }
-        .link ul li{
-            padding: 10px;
-            list-style: none;
-        }
-        .link ul li a{
-            text-decoration: none;
-            color: white;
-        }
-        .wonder{
-            width: 50px;
-            border: 2px solid white;
-            border-bottom: none;
-        }
-        .link ul li::before{
-            content: "\29BF";
-            padding-right: 7px;
         }
