@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    padding:0.5%;
+}
+.nav-links{
+    padding: 35px;
+    height: 14vh;
+    width: 100%;
+    position: relative;
+}
+nav img{
+    width: 250px;
+    float: left;
+    padding-left: 42px;
+}
+.nav-links ul{
+    list-style: none;
+    margin-top: 10px;
+    right: 5%;
+    position: absolute;
+}
+.nav-links ul li{
+    list-style: none;
+    float: left;
+}
+.nav-links ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #fff;
+    display: block;
+    margin: auto;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 80px;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box h5{
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #404B5F;
+    padding: 7px 14px;
+    background: #404B5F;
+    position: relative;
+
+}
+.text-box p{
+    margin: 5px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #0045E1;
+    background: #0045E1;
+}
